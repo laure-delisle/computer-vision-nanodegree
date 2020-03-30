@@ -1,0 +1,6 @@
+pillow
+matplotlib
+opencv-python
+numpy
+jupyter
+helpers
