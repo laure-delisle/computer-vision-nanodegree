@@ -3,3 +3,7 @@ matplotlib
 opencv-python
 numpy
 jupyter
+pandas
+torch
+torchvision
+
