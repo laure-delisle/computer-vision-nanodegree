@@ -98,7 +98,7 @@ class DeeperNet(nn.Module):
 class DeepestNet(nn.Module):
 
     def __init__(self):
-        super(DeeperNet, self).__init__()
+        super(DeepestNet, self).__init__()
         
         # Define all the layers of this CNN, the only requirements are:
         # 224*224*1 -> 110*110*32 (with pool 2x2)
