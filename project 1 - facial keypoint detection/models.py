@@ -94,7 +94,7 @@ class DeeperNet(nn.Module):
         
         # a modified x, having gone through all the layers of your model, should be returned
         return x
-    
+
 class DeepestNet(nn.Module):
 
     def __init__(self):
