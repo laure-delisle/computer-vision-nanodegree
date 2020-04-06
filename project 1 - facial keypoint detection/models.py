@@ -119,7 +119,7 @@ class DeepestNet(nn.Module):
         
         # 11*11*256 -> 4*4*512 (with pool 2x2)
         self.conv5 = nn.Conv2d(256, 512, 3)
-        self.bn5 = nn.BatchNorm2d(256)
+        self.bn5 = nn.BatchNorm2d(512)
         
         self.fc1 = nn.Linear(512*4*4, 1024)
         self.fc2 = nn.Linear(1024, 136)
