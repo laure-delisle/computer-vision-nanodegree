@@ -25,7 +25,6 @@ class robot:
     #
     def __init__(self, world_size = 100.0, measurement_range = 30.0,
                  motion_noise = 1.0, measurement_noise = 1.0):
-        self.measurement_noise = 0.0
         self.world_size = world_size
         self.measurement_range = measurement_range
         self.x = world_size / 2.0
